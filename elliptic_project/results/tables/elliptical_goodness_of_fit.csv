@@ -1,0 +1,12 @@
+quantity,value
+Feature block,LF
+Dimensions in block,93
+Effective rank (chi-square df),80
+Licit training points,26432
+Mean d^2 (expected = df),80.0
+Median d^2 (expected),27.9 (79.3)
+Share above chi2 95% quantile (expected 5%),11.8%
+Mardia kurtosis b2 (expected p(p+2)),"177,877 (6,560)"
+KS statistic vs chi2(df),0.745
+KS p-value,0.00e+00
+Verdict,elliptical assumption REJECTED

@@ -1,0 +1,2 @@
+rule,flagged_%,precision,recall,illicit_F1,PR_AUC (score=d^2),PR_AUC of random ranking
+flag if d^2 > chi2_80(0.975) = 106.6,14.1,0.006,0.012,0.008,0.038,0.065

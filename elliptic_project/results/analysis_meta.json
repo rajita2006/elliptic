@@ -1,0 +1,9 @@
+{
+  "alert_model": "A2/RandomForest",
+  "representative": {
+    "A1": "RandomForest",
+    "A2": "RandomForest",
+    "A3": "GraphSAGE",
+    "A4": "GraphSAGE"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "illicit_weight": 7.634893125361063,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "best_params": {
+    "A1/XGBoost": {
+      "max_depth": 8,
+      "n_estimators": 200,
+      "learning_rate": 0.1
+    },
+    "A1/RandomForest": {
+      "max_depth": 20,
+      "max_features": "sqrt",
+      "n_estimators": 300
+    },
+    "A2/XGBoost": {
+      "max_depth": 6,
+      "n_estimators": 200,
+      "learning_rate": 0.1
+    },
+    "A2/RandomForest": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "n_estimators": 300
+    },
+    "A3/GraphSAGE": {
+      "hidden": 64,
+      "lr": 0.01,
+      "epochs": 180
+    },
+    "A3/GCN": {
+      "hidden": 128,
+      "lr": 0.01,
+      "epochs": 190
+    },
+    "A4/GraphSAGE": {
+      "hidden": 64,
+      "lr": 0.01,
+      "epochs": 100
+    },
+    "A4/GCN": {
+      "hidden": 128,
+      "lr": 0.01,
+      "epochs": 170
+    }
+  }
+}

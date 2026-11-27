@@ -1,0 +1,15 @@
+check,observed,expected,pass
+Transaction nodes,203769,203769,True
+Directed edges,234355,234355,True
+Feature columns used (LF + AF),165,165,True
+Missing feature values,0,0,True
+Duplicate txId,0,0,True
+Duplicate edges,0,0,True
+Self-loops,0,0,True
+Edges to unknown txId,0,0,True
+Edges crossing time steps,0,0,True
+Time steps,49,49,True
+Illicit (class 1),4545,4545,True
+Licit (class 2),42019,42019,True
+Unknown,157205,157205,True
+"Values with |z| > 3 (reported, not removed)",437021,,True

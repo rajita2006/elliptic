@@ -1,0 +1,9 @@
+window,rows,LF_share,AF_share,n,model
+pre t35-42,all,0.6441,0.3559,9983,A2 XGBoost (TreeSHAP)
+pre t35-42,illicit,0.6562,0.3438,914,A2 XGBoost (TreeSHAP)
+post t43-49,all,0.633,0.367,6687,A2 XGBoost (TreeSHAP)
+post t43-49,illicit,0.6181,0.3819,169,A2 XGBoost (TreeSHAP)
+pre t35-42,all,0.4792,0.5208,9983,A4 GraphSAGE (gradient x input)
+pre t35-42,illicit,0.4057,0.5943,914,A4 GraphSAGE (gradient x input)
+post t43-49,all,0.5096,0.4904,6687,A4 GraphSAGE (gradient x input)
+post t43-49,illicit,0.4228,0.5772,169,A4 GraphSAGE (gradient x input)
